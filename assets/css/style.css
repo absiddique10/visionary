@@ -1,0 +1,303 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@400;600;700&family=Nunito:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+:root{
+    --brand-color: #007A56;
+    --secondary-color: #000000;
+    --soft-dark-color: #262626;
+    --light-color: #fff;
+    --bg-color: #F8F4F0;
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;
+    --transition: .5s linear ;
+    font-size: 10px;
+}
+/* common code start */
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,body,ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+/* common code end */
+/* nav section start */
+.navbar-brand{
+    font-size: 2.2rem;
+}
+.navbar-brand .fa-lg{
+    color: var(--brand-color);
+    font-size: 4.2rem;
+}
+.navbar-brand .fa-lg:hover{
+    color: var(--secondary-color);
+    transition: var(--transition);
+}
+.navbar-brand span{
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    font-size: 2.3rem;
+}
+.navbar-brand span:hover{
+    color: var(--brand-color);
+    border-bottom: 2px solid var(--brand-color);
+    transition: var(--transition);
+}
+.navbar-nav{
+    font-family: var(--primary-font);
+    font-size: 1.6rem;
+}
+.navbar-nav .nav-item .nav-link{
+    color: var(--secondary-color);
+}
+.navbar-nav .nav-item .nav-link{    
+    margin-right: 5px;
+}
+.dropdown-menu .dropdown-item{
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+}
+.navbar-nav .nav-item .nav-link:hover,.navbar-nav .nav-item .active,.dropdown-menu .dropdown-item:hover{
+    color: var(--brand-color);
+    transition: var(--transition);
+    font-family: var(--primary-font);
+}
+
+.button{
+    background: var(--brand-color);
+    color: var(--light-color);
+    border: 2px solid var(--brand-color);
+    padding: 3px 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.button:hover{
+    background: transparent;
+    color: var(--secondary-color);
+    transition: var(--transition);
+}
+
+/* nav section end */
+/* header section start */
+.header-content{
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-right: 80px;
+}
+.header-content h1{
+    font-family: var(--primary-font);
+    font-size: 6.5rem;
+    font-weight: 700;
+}
+.header-content p{
+    font-family: var(--primary-font);
+    font-size: 1.8rem;
+}
+.header-banner img{
+    /* max-width: 100%; */
+}
+
+/* header section end */
+/* services section start */
+.services-section{
+    background: var(--bg-color);
+}
+.services-title a{
+    max-width: 30%;
+    font-family: var(--secondary-font);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: var(--light-color);
+}
+.services-title h1{
+    font-family: var(--primary-font);
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+.services-title p{
+    font-family: var(--primary-font);
+    font-size: 1.8rem;
+}
+.services-title img{
+    border-radius: 15px;
+}
+
+/* services section end */
+/* about-us section start */
+.about-us-content{
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-us-content a{
+    max-width: 30%;
+    font-family: var(--secondary-font);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: var(--light-color);
+}
+.about-us-content h5{
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: var(--soft-dark-color);
+}
+.about-us-content h2{
+    font-family: var(--primary-font);
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 5.7rem;
+    color: var(--secondary-color);
+}
+.about-us-content p{
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: var(--soft-dark-color);
+}
+/* about-us section end */
+/* latest news section start */
+.latest-news-content{
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.latest-news-content a{
+    max-width: 30%;
+    font-family: var(--secondary-font);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: var(--light-color);
+}
+.latest-news-content h5{
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: var(--soft-dark-color);
+}
+.latest-news-content h2{
+    font-family: var(--primary-font);
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 5.7rem;
+    color: var(--secondary-color);
+}
+.latest-news-content p{
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: var(--soft-dark-color);
+}
+/* latest news section end */
+/* why-us section start */
+.why-us-section{
+    background: var(--bg-color);
+}
+.why-us-content{
+
+}
+.why-us-content h2{
+    font-family: var(--primary-font);
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 5.7rem;
+    color: var(--secondary-color);
+}
+.why-us-content i{
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 5.7rem;
+    color: var(--brand-color);
+    transition: var(--transition);
+}
+.why-us-content i:hover{
+    color: var(--secondary-color);
+}
+.why-us-content p{
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: var(--secondary-color);
+}
+/* why-us section end */
+/* need section start */
+.need-section h2{
+    font-family: var(--primary-font);
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 5.7rem;
+    color: var(--secondary-color);
+}
+.need-section p{
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: var(--secondary-color);
+}
+.need-section input.form-control{
+    font-size: 1.8rem;
+    display: inline-block;
+    padding: 12px 8px;
+}
+.need-section button{
+    font-family: var(--secondary-font);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: var(--light-color);
+}
+/* need section end */
+/* footer section start */
+footer{
+    background: var(--secondary-color);
+}
+footer .fa-lg{
+    color: var(--brand-color);
+    font-size: 4.2rem;
+}
+footer .fa-lg:hover{
+    color: var(--light-color);
+    transition: var(--transition);
+}
+footer span{
+    color: var(--light-color);
+    font-family: var(--primary-font);
+    font-size: 2.3rem;
+}
+footer span:hover{
+    color: var(--brand-color);
+    transition: var(--transition);
+}
+.footer-content h2{
+    font-family: var(--primary-font);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 4rem;
+    color: var(--light-color);
+}
+footer p,.footer-content address,.footer-content ul li a{
+    font-family: var(--primary-font);
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--light-color);
+}
+.footer-content ul li a i{
+    color: var(--light-color);
+    transition: var(--transition);
+}
+.footer-content ul li a i:hover{
+    color: var(--brand-color);
+}
+/* footer section end */
